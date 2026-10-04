@@ -1,0 +1,11 @@
+# Минимальные значения для Envoy Gateway v1.0.0.
+# Всё, что нужно — установка в namespace envoy-gateway-system.
+deployment:
+  envoyGateway:
+    resources:
+      requests:
+        cpu: 100m
+        memory: 256Mi
+      limits:
+        cpu: 500m
+        memory: 512Mi
