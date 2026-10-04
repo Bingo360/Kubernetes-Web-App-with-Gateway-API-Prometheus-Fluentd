@@ -1,0 +1,5 @@
+*.swp
+*.bak
+.kube/
+*.log
+.DS_Store
